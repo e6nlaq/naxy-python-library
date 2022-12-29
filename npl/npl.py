@@ -1,7 +1,21 @@
 
 def isodd(x):
-    return x % 2 == 1
+    if (x % 2 != 0):
+        return True
+    else:
+        return False
 
 
 def iseven(x):
-    return x % 2 == 0
+    if (x % 2 == 0):
+        return True
+    else:
+        return False
+
+
+def printf(s):
+    print(s)
+
+
+def srev(s):
+    s = s[::-1]
